@@ -6,32 +6,40 @@
             <!-- Logo (Left Column) -->
             <div class="flex-1 flex justify-start items-center">
                 <a href="/" class="transition-transform duration-300 hover:scale-105">
-                    <img class="h-10 md:h-12 w-auto object-contain" src="{{ asset('images/logo-albatros.png') }}"
+                    <img class="h-16 md:h-16 w-auto object-contain" src="{{ asset('images/logo-albatros.png') }}"
                         alt="Agence Albatros">
                 </a>
             </div>
 
             <!-- Navigation Desktop (Center Column) -->
             <nav class="hidden md:flex flex-grow justify-center space-x-10 items-center">
-                <a href="#propos" class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
+                <a href="#propos"
+                    class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
                     :class="scrolled ? 'text-gray-800' : 'text-gray-100'">
                     A propos de nous
-                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full"
+                        :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
                 </a>
-                <a href="#services" class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
+                <a href="#services"
+                    class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
                     :class="scrolled ? 'text-gray-800' : 'text-gray-100'">
                     Nos Services
-                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full"
+                        :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
                 </a>
-                <a href="#portfolio" class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
+                <a href="#portfolio"
+                    class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
                     :class="scrolled ? 'text-gray-800' : 'text-gray-100'">
                     Portfolio
-                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full"
+                        :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
                 </a>
-                <a href="#contact" class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
+                <a href="#contact"
+                    class="text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-80 relative group"
                     :class="scrolled ? 'text-gray-800' : 'text-gray-100'">
                     Contactez nous
-                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full"
+                        :class="scrolled ? 'bg-primary' : 'bg-white'"></span>
                 </a>
             </nav>
 
@@ -51,7 +59,8 @@
                         aria-controls="mobile-menu" :aria-expanded="mobileMenuOpen">
                         <span class="sr-only">Ouvrir le menu</span>
                         <!-- Icon Open -->
-                        <svg x-show="!mobileMenuOpen" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg x-show="!mobileMenuOpen" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
