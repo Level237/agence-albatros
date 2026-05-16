@@ -38,6 +38,8 @@
         <x-header />
         <x-hero />
         <x-about />
+        <x-services />
+        <x-vision />
 
         <main>
             <section class="h-screen bg-gray-50 flex items-center justify-center">
