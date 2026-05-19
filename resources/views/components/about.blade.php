@@ -52,11 +52,8 @@
                     class="transition-all duration-1000 delay-300 ease-out grid sm:grid-cols-2 gap-8">
                     <div class="flex items-start gap-4 group">
                         <div
-                            class="flex-shrink-0 w-14 h-14 rounded-2xl bg-primary/5 flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
+                            class="flex-shrink-0 w-14 h-14 rounded-2xl bg-primary/5 flex items-center justify-center text-primary transition-colors  group-hover:text-white">
+                            <x-lucide-zap class="w-7 h-7" />
                         </div>
                         <div>
                             <h4 class="font-bold text-gray-900 mb-1 text-lg">Performance</h4>
@@ -66,11 +63,8 @@
                     </div>
                     <div class="flex items-start gap-4 group">
                         <div
-                            class="flex-shrink-0 w-14 h-14 rounded-2xl bg-primary/5 flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-4.514A9.01 9.01 0 0012 15c2.243 0 4.296.815 5.882 2.162m0 0A9 9 0 1012 1.57a9.003 9.003 0 00-11.37 11.052" />
-                            </svg>
+                            class="flex-shrink-0 w-14 h-14 rounded-2xl bg-primary/5 flex items-center justify-center text-primary transition-colors  group-hover:text-white">
+                            <x-lucide-brain class="w-7 h-7" />
                         </div>
                         <div>
                             <h4 class="font-bold text-gray-900 mb-1 text-lg">Stratégie</h4>
@@ -122,19 +116,7 @@
                                 loading="lazy">
                         </div>
 
-                        <!-- Stats Badge Overlay -->
-                        <div :class="shown ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'"
-                            class="absolute -bottom-8 -right-8 md:-right-12 bg-white p-8 rounded-[2rem] shadow-2xl border border-gray-100 transition-all duration-1000 delay-700 hidden sm:block">
-                            <div class="flex items-center gap-5">
-                                <div class="text-5xl font-extrabold text-primary tracking-tighter">12+</div>
-                                <div class="h-10 w-px bg-gray-200"></div>
-                                <div class="text-xs font-bold text-gray-400 uppercase tracking-widest leading-tight">
-                                    Années <br> d'Expertise
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Floating Rating Card -->
                         <div :class="shown ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'"
                             class="absolute -top-6 -left-6 md:-left-12 bg-white/90 backdrop-blur-xl p-5 rounded-2xl shadow-xl border border-white/50 transition-all duration-1000 delay-900">
                             <div class="flex items-center gap-2 mb-2">
